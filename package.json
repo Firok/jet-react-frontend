@@ -1,0 +1,37 @@
+{
+  "name": "jet-react-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "start:server": "node server.js",
+    "build": "webpack -d && copy src\\index.html public\\index.html && webpack-dev-server --content-base public\\ --inline --hot --port 3000",
+    "build:prod": "webpack -p && copy  src\\index.html public\\index.html",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "css-loader": "^0.28.8",
+    "history": "^4.7.2",
+    "jquery": "^3.2.1",
+    "prop-types": "^15.6.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-link": "^2.0.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}

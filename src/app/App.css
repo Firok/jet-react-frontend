@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+
+.App-users {
+  text-align: center;
+}
+
+.App-container {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+.col {
+  padding: .4em 6em;
+}
+
+.color-dark {
+  background: #FFFFFF;
+}
+
+.color-light {
+  background: #FFF;
+}
+
+.App-table-input {
+  border: 0;
+}
+
+.App-btn {
+  border: 0;
+  display: block;
+  padding: 1em 3em;
+  background: #57B3F1;
+  color: #003A61;
+  margin: auto;
+  cursor: pointer;
+}
+
+.App-users-container {
+  padding: .5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.App-login-container {
+  width: 40%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: #eee 1px solid;
+  padding: 5px;
+  z-index: 100;
+}
+
+.App-nav-right {
+  padding: .5em;
+  position: absolute;
+  right: 0;
+  width: 30%;
+  margin-top: 1em;
+}
+
+.App-nav-btn {
+  border: 1px solid #57B3F1;
+  padding: 1em 2em;
+  margin: .3em;
+  background: #FFFFFF;
+  color: #57B3F1;
+  cursor: pointer;
+}
+
+.App-register-content {
+  border: #eee 1px solid;
+  margin: auto;
+  width:60%;
+  height: 80%;
+  margin-top: 1em;
+}
+
+.App-form-input {
+  margin-top: 4em;
+}
+
+
+
+
+
